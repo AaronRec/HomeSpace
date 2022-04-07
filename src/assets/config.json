@@ -1,0 +1,12 @@
+{
+  "Sites": {
+    "0": {
+      "url": "https://youtube.com",
+      "name": "YouTube"
+    },
+    "1": {
+      "url": "https://twitch.tv",
+      "name": "Twitch"
+    }
+  }
+}
