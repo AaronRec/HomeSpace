@@ -1,0 +1,10 @@
+<h2>My Sites</h2>
+<ul class="heroes">
+  <li *ngFor="let site of sites">
+    <a href='{{site.url}}'>
+      <img height="16" width="16" src='http://www.google.com/s2/favicons?domain={{site.url}}' alt="favicon {{site.url}}" class="icon"/>
+      <span class="name">{{site.name}}</span>
+    </a>
+  </li>
+</ul>
+
